@@ -1,0 +1,6 @@
+rootProject.name = 'gradle-multi-modules'
+
+include('commons')
+include('application')
+include('component1')
+include('component2')

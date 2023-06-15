@@ -1,0 +1,14 @@
+plugins {
+    id 'application'
+}
+
+group = 'org.example.agencies'
+version = '0.0.1'
+
+dependencies {
+    implementation project(":commons")
+}
+
+application {
+    mainClass = "org.example.agencies.AgenciesKt"
+}
